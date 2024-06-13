@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F02266782C1ACA94005DE863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F02266772C1ACA94005DE863 /* AppDelegate.m */; };
+		F022667B2C1ACA94005DE863 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F022667A2C1ACA94005DE863 /* ViewController.m */; };
+		F022667D2C1ACA95005DE863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F022667C2C1ACA95005DE863 /* Assets.xcassets */; };
+		F02266802C1ACA95005DE863 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F022667F2C1ACA95005DE863 /* Base */; };
+		F02266822C1ACA95005DE863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F02266812C1ACA95005DE863 /* main.m */; };
+		F022669A2C1ACC0D005DE863 /* asm_arm_mult_square_umaal.inc in Sources */ = {isa = PBXBuildFile; fileRef = F02266892C1ACC0D005DE863 /* asm_arm_mult_square_umaal.inc */; };
+		F022669B2C1ACC0D005DE863 /* asm_arm_mult_square.inc in Sources */ = {isa = PBXBuildFile; fileRef = F022668A2C1ACC0D005DE863 /* asm_arm_mult_square.inc */; };
+		F022669C2C1ACC0D005DE863 /* asm_arm.inc in Sources */ = {isa = PBXBuildFile; fileRef = F022668B2C1ACC0D005DE863 /* asm_arm.inc */; };
+		F022669D2C1ACC0D005DE863 /* asm_avr_mult_square.inc in Sources */ = {isa = PBXBuildFile; fileRef = F022668C2C1ACC0D005DE863 /* asm_avr_mult_square.inc */; };
+		F022669E2C1ACC0D005DE863 /* asm_avr.inc in Sources */ = {isa = PBXBuildFile; fileRef = F022668D2C1ACC0D005DE863 /* asm_avr.inc */; };
+		F022669F2C1ACC0D005DE863 /* curve-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = F022668E2C1ACC0D005DE863 /* curve-specific.inc */; };
+		F02266A02C1ACC0D005DE863 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F022668F2C1ACC0D005DE863 /* LICENSE.txt */; };
+		F02266A12C1ACC0D005DE863 /* platform-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = F02266902C1ACC0D005DE863 /* platform-specific.inc */; };
+		F02266A22C1ACC0D005DE863 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F02266912C1ACC0D005DE863 /* README.md */; };
+		F02266A32C1ACC0D005DE863 /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = F02266942C1ACC0D005DE863 /* uECC.c */; };
+		F02266A42C1ACC0D005DE863 /* decode_log_file.c in Sources */ = {isa = PBXBuildFile; fileRef = F02266972C1ACC0D005DE863 /* decode_log_file.c */; };
+		F02266AA2C1ACF2C005DE863 /* CustomTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F02266A72C1ACF2C005DE863 /* CustomTableRowView.m */; };
+		F02266AB2C1ACF2C005DE863 /* STLogTableItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02266A82C1ACF2C005DE863 /* STLogTableItemView.xib */; };
+		F02266AC2C1ACF2C005DE863 /* STLogTableItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = F02266A92C1ACF2C005DE863 /* STLogTableItemView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F02266732C1ACA94005DE863 /* xlogdecodetool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xlogdecodetool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02266762C1ACA94005DE863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F02266772C1ACA94005DE863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F02266792C1ACA94005DE863 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F022667A2C1ACA94005DE863 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F022667C2C1ACA95005DE863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F022667F2C1ACA95005DE863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F02266812C1ACA95005DE863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F02266832C1ACA95005DE863 /* xlogdecodetool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xlogdecodetool.entitlements; sourceTree = "<group>"; };
+		F02266892C1ACC0D005DE863 /* asm_arm_mult_square_umaal.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = asm_arm_mult_square_umaal.inc; sourceTree = "<group>"; };
+		F022668A2C1ACC0D005DE863 /* asm_arm_mult_square.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = asm_arm_mult_square.inc; sourceTree = "<group>"; };
+		F022668B2C1ACC0D005DE863 /* asm_arm.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = asm_arm.inc; sourceTree = "<group>"; };
+		F022668C2C1ACC0D005DE863 /* asm_avr_mult_square.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = asm_avr_mult_square.inc; sourceTree = "<group>"; };
+		F022668D2C1ACC0D005DE863 /* asm_avr.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = asm_avr.inc; sourceTree = "<group>"; };
+		F022668E2C1ACC0D005DE863 /* curve-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "curve-specific.inc"; sourceTree = "<group>"; };
+		F022668F2C1ACC0D005DE863 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F02266902C1ACC0D005DE863 /* platform-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "platform-specific.inc"; sourceTree = "<group>"; };
+		F02266912C1ACC0D005DE863 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F02266922C1ACC0D005DE863 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		F02266932C1ACC0D005DE863 /* uECC_vli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC_vli.h; sourceTree = "<group>"; };
+		F02266942C1ACC0D005DE863 /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		F02266952C1ACC0D005DE863 /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+		F02266972C1ACC0D005DE863 /* decode_log_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decode_log_file.c; sourceTree = "<group>"; };
+		F02266982C1ACC0D005DE863 /* decode_log_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decode_log_file.h; sourceTree = "<group>"; };
+		F02266A52C1ACF2C005DE863 /* CustomTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableRowView.h; sourceTree = "<group>"; };
+		F02266A62C1ACF2C005DE863 /* STLogTableItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLogTableItemView.h; sourceTree = "<group>"; };
+		F02266A72C1ACF2C005DE863 /* CustomTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableRowView.m; sourceTree = "<group>"; };
+		F02266A82C1ACF2C005DE863 /* STLogTableItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STLogTableItemView.xib; sourceTree = "<group>"; };
+		F02266A92C1ACF2C005DE863 /* STLogTableItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLogTableItemView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F02266702C1ACA94005DE863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F022666A2C1ACA94005DE863 = {
+			isa = PBXGroup;
+			children = (
+				F02266752C1ACA94005DE863 /* xlogdecodetool */,
+				F02266742C1ACA94005DE863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F02266742C1ACA94005DE863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02266732C1ACA94005DE863 /* xlogdecodetool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02266752C1ACA94005DE863 /* xlogdecodetool */ = {
+			isa = PBXGroup;
+			children = (
+				F02266A52C1ACF2C005DE863 /* CustomTableRowView.h */,
+				F02266A72C1ACF2C005DE863 /* CustomTableRowView.m */,
+				F02266A62C1ACF2C005DE863 /* STLogTableItemView.h */,
+				F02266A92C1ACF2C005DE863 /* STLogTableItemView.m */,
+				F02266A82C1ACF2C005DE863 /* STLogTableItemView.xib */,
+				F02266992C1ACC0D005DE863 /* xlogdecode */,
+				F02266762C1ACA94005DE863 /* AppDelegate.h */,
+				F02266772C1ACA94005DE863 /* AppDelegate.m */,
+				F02266792C1ACA94005DE863 /* ViewController.h */,
+				F022667A2C1ACA94005DE863 /* ViewController.m */,
+				F022667C2C1ACA95005DE863 /* Assets.xcassets */,
+				F022667E2C1ACA95005DE863 /* Main.storyboard */,
+				F02266812C1ACA95005DE863 /* main.m */,
+				F02266832C1ACA95005DE863 /* xlogdecodetool.entitlements */,
+			);
+			path = xlogdecodetool;
+			sourceTree = "<group>";
+		};
+		F02266962C1ACC0D005DE863 /* micro-ecc-master */ = {
+			isa = PBXGroup;
+			children = (
+				F02266892C1ACC0D005DE863 /* asm_arm_mult_square_umaal.inc */,
+				F022668A2C1ACC0D005DE863 /* asm_arm_mult_square.inc */,
+				F022668B2C1ACC0D005DE863 /* asm_arm.inc */,
+				F022668C2C1ACC0D005DE863 /* asm_avr_mult_square.inc */,
+				F022668D2C1ACC0D005DE863 /* asm_avr.inc */,
+				F022668E2C1ACC0D005DE863 /* curve-specific.inc */,
+				F022668F2C1ACC0D005DE863 /* LICENSE.txt */,
+				F02266902C1ACC0D005DE863 /* platform-specific.inc */,
+				F02266912C1ACC0D005DE863 /* README.md */,
+				F02266922C1ACC0D005DE863 /* types.h */,
+				F02266932C1ACC0D005DE863 /* uECC_vli.h */,
+				F02266942C1ACC0D005DE863 /* uECC.c */,
+				F02266952C1ACC0D005DE863 /* uECC.h */,
+			);
+			path = "micro-ecc-master";
+			sourceTree = "<group>";
+		};
+		F02266992C1ACC0D005DE863 /* xlogdecode */ = {
+			isa = PBXGroup;
+			children = (
+				F02266962C1ACC0D005DE863 /* micro-ecc-master */,
+				F02266972C1ACC0D005DE863 /* decode_log_file.c */,
+				F02266982C1ACC0D005DE863 /* decode_log_file.h */,
+			);
+			path = xlogdecode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F02266722C1ACA94005DE863 /* xlogdecodetool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02266862C1ACA95005DE863 /* Build configuration list for PBXNativeTarget "xlogdecodetool" */;
+			buildPhases = (
+				F022666F2C1ACA94005DE863 /* Sources */,
+				F02266702C1ACA94005DE863 /* Frameworks */,
+				F02266712C1ACA94005DE863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xlogdecodetool;
+			productName = xlogdecodetool;
+			productReference = F02266732C1ACA94005DE863 /* xlogdecodetool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F022666B2C1ACA94005DE863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F02266722C1ACA94005DE863 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F022666E2C1ACA94005DE863 /* Build configuration list for PBXProject "xlogdecodetool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F022666A2C1ACA94005DE863;
+			productRefGroup = F02266742C1ACA94005DE863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F02266722C1ACA94005DE863 /* xlogdecodetool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F02266712C1ACA94005DE863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02266A02C1ACC0D005DE863 /* LICENSE.txt in Resources */,
+				F022667D2C1ACA95005DE863 /* Assets.xcassets in Resources */,
+				F02266A22C1ACC0D005DE863 /* README.md in Resources */,
+				F02266802C1ACA95005DE863 /* Base in Resources */,
+				F02266AB2C1ACF2C005DE863 /* STLogTableItemView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F022666F2C1ACA94005DE863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F022669F2C1ACC0D005DE863 /* curve-specific.inc in Sources */,
+				F022667B2C1ACA94005DE863 /* ViewController.m in Sources */,
+				F022669A2C1ACC0D005DE863 /* asm_arm_mult_square_umaal.inc in Sources */,
+				F02266A32C1ACC0D005DE863 /* uECC.c in Sources */,
+				F02266822C1ACA95005DE863 /* main.m in Sources */,
+				F022669C2C1ACC0D005DE863 /* asm_arm.inc in Sources */,
+				F02266A42C1ACC0D005DE863 /* decode_log_file.c in Sources */,
+				F02266A12C1ACC0D005DE863 /* platform-specific.inc in Sources */,
+				F022669E2C1ACC0D005DE863 /* asm_avr.inc in Sources */,
+				F022669D2C1ACC0D005DE863 /* asm_avr_mult_square.inc in Sources */,
+				F02266AC2C1ACF2C005DE863 /* STLogTableItemView.m in Sources */,
+				F02266AA2C1ACF2C005DE863 /* CustomTableRowView.m in Sources */,
+				F02266782C1ACA94005DE863 /* AppDelegate.m in Sources */,
+				F022669B2C1ACC0D005DE863 /* asm_arm_mult_square.inc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F022667E2C1ACA95005DE863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F022667F2C1ACA95005DE863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F02266842C1ACA95005DE863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F02266852C1ACA95005DE863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F02266872C1ACA95005DE863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xlogdecodetool/xlogdecodetool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66Q7X2DNE7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yb.xlogdecodetool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		F02266882C1ACA95005DE863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xlogdecodetool/xlogdecodetool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66Q7X2DNE7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yb.xlogdecodetool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F022666E2C1ACA94005DE863 /* Build configuration list for PBXProject "xlogdecodetool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02266842C1ACA95005DE863 /* Debug */,
+				F02266852C1ACA95005DE863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02266862C1ACA95005DE863 /* Build configuration list for PBXNativeTarget "xlogdecodetool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F02266872C1ACA95005DE863 /* Debug */,
+				F02266882C1ACA95005DE863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F022666B2C1ACA94005DE863 /* Project object */;
+}

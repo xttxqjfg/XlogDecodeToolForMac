@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22689"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView misplaced="YES" id="7Fv-R0-tMZ" customClass="STLogTableItemView">
+            <rect key="frame" x="0.0" y="0.0" width="891" height="133"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="dIU-ha-row">
+                    <rect key="frame" x="3" y="5" width="570" height="16"/>
+                    <textFieldCell key="cell" selectable="YES" alignment="left" title="Multiline Label" id="E7e-5p-X91">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="czu-hj-bEo">
+                    <rect key="frame" x="794" y="-4" width="74" height="32"/>
+                    <buttonCell key="cell" type="push" title="下载" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="gg9-gb-Cab">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="EDP-Bx-Uce"/>
+                        <constraint firstAttribute="width" constant="60" id="Yx8-y2-xYH"/>
+                    </constraints>
+                    <connections>
+                        <action selector="logDownOptionClicked:" target="7Fv-R0-tMZ" id="vNB-wi-SDn"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="jkd-QE-Sds">
+                    <rect key="frame" x="579" y="5" width="104" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="cds-iZ-PoT"/>
+                    </constraints>
+                    <textFieldCell key="cell" selectable="YES" title="Multiline Label" id="VtQ-SD-ZFV">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="dt0-w2-edZ">
+                    <rect key="frame" x="689" y="5" width="104" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="1PF-Rs-l6P"/>
+                    </constraints>
+                    <textFieldCell key="cell" selectable="YES" title="Multiline Label" id="9Ph-bQ-iqQ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="czu-hj-bEo" firstAttribute="centerY" secondItem="dt0-w2-edZ" secondAttribute="centerY" id="6YQ-w7-a7J"/>
+                <constraint firstItem="jkd-QE-Sds" firstAttribute="centerY" secondItem="dIU-ha-row" secondAttribute="centerY" id="8Dh-hm-ue9"/>
+                <constraint firstItem="dIU-ha-row" firstAttribute="leading" secondItem="7Fv-R0-tMZ" secondAttribute="leading" constant="5" id="8Y7-2W-vFV"/>
+                <constraint firstItem="dt0-w2-edZ" firstAttribute="leading" secondItem="jkd-QE-Sds" secondAttribute="trailing" constant="10" id="F0j-23-00L"/>
+                <constraint firstItem="czu-hj-bEo" firstAttribute="leading" secondItem="dt0-w2-edZ" secondAttribute="trailing" constant="10" id="Wdi-JK-bg9"/>
+                <constraint firstAttribute="bottom" secondItem="dIU-ha-row" secondAttribute="bottom" constant="5" id="YgE-4w-9oK"/>
+                <constraint firstItem="jkd-QE-Sds" firstAttribute="leading" secondItem="dIU-ha-row" secondAttribute="trailing" constant="10" id="d6U-t3-qpr"/>
+                <constraint firstItem="dIU-ha-row" firstAttribute="centerY" secondItem="7Fv-R0-tMZ" secondAttribute="centerY" id="f0b-mZ-Nty"/>
+                <constraint firstAttribute="trailing" secondItem="czu-hj-bEo" secondAttribute="trailing" constant="30" id="fga-IS-quf"/>
+                <constraint firstItem="dt0-w2-edZ" firstAttribute="centerY" secondItem="jkd-QE-Sds" secondAttribute="centerY" id="pVv-nX-Zp8"/>
+                <constraint firstItem="dIU-ha-row" firstAttribute="top" secondItem="7Fv-R0-tMZ" secondAttribute="top" constant="5" id="z54-0n-JTJ"/>
+            </constraints>
+            <connections>
+                <outlet property="fileSizeLabel" destination="dt0-w2-edZ" id="jTq-vX-2Zr"/>
+                <outlet property="logDownBtn" destination="czu-hj-bEo" id="sJQ-Tb-wFi"/>
+                <outlet property="logNameLabel" destination="dIU-ha-row" id="7JS-X2-Q08"/>
+                <outlet property="modifyDateLabel" destination="jkd-QE-Sds" id="Vvv-NW-tC5"/>
+            </connections>
+            <point key="canvasLocation" x="79.5" y="191.5"/>
+        </customView>
+    </objects>
+</document>
